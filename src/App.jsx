@@ -13,7 +13,7 @@ export default function App() {
 
       <section className="profile">
         <div className="image-stack">
-          <img src={`${import.meta.env.BASE_URL}images/Profile.webp`} className="main-profile" alt="Profile"/>
+          <img src="/digital/Profile.webp" alt="Profile" className="profile-img"/>
         </div>
 
         <p>

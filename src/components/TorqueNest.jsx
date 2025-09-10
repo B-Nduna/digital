@@ -1,4 +1,3 @@
-// TorqueNest.jsx
 import React, { useEffect, useState } from 'react';
 
 const API_KEY = 'AIzaSyCb6ymQvkuWBPEHM12gyI6jqK4A3n09ay0';

@@ -4,18 +4,16 @@ import TorqueNest from "./components/TorqueNest";
 import SubscribeForm from './components/SubscribeForm';
 import { FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
-
-
 export default function App() {
   return (
     <>
       <header>
-        <img src="/images/B_Nduna_Logo_Transparent.webp" className="logo" alt="logo" />
+        <img src="./images/B_Nduna_Logo_Transparent.webp" className="logo" alt="logo" />
       </header>
 
       <section className="profile">
         <div className="image-stack">
-          <img src="/images/Profile.webp" className="main-profile" alt="Profile" />
+          <img src="/digital/images/Profile.webp" className="main-profile" alt="Profile" />
         </div>
 
         <p>
@@ -37,16 +35,15 @@ export default function App() {
         <h2>My Portfolio</h2>
         <a href="https://b-nduna.github.io/Portfolio/" target="_blank">
           <div className="portfolio-container">
-            <img src="/images/portfolio_website.webp" alt="My Portfolio" />
+            <img src="./images/portfolio_website.webp" alt="My Portfolio" />
           </div>
         </a>
       </section>
 
       <main>
-  {/* Other sections */}
-  <TorqueNest />
-</main>
-
+        {/* Other sections */}
+        <TorqueNest />
+      </main>
 
       <section className="music" id="music">
         <h2>Bassline Odyssey Podcast</h2>
